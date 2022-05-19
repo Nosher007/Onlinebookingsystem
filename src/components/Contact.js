@@ -19,7 +19,7 @@ function Contact() {
      
     const submitInfo = (event) => {
         event.preventDefault(); 
-        // console.log("efwf11", formData );
+        console.log("efwf11", formData );
 
 
         setFormError(validate(formData));
