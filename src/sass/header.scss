@@ -1,0 +1,131 @@
+
+.transperant-header{
+    .header{
+        border-bottom: none;
+        background-color: transparent;
+    }
+}
+.header{
+    padding: 0 35px;
+    position: relative;
+    z-index: 9;
+    border-bottom: 1px solid #e4e9ed;
+    background-color: $btn_color;
+
+    .lc-navbar-main{
+        .navbar{
+            padding: 0;
+            height: 93px;
+            width: 100%;
+            
+            .navbar-nav{
+                .nav-item{
+                    padding: 0 0 0 34px;
+
+                    .nav-link{
+                        padding: 32px 0;
+                        color: $text_color;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        border-top: 4px solid transparent;
+                        border-bottom: 4px solid transparent;
+                        transition: all .3s ease;
+                        -moz-transition: all .3s ease;
+                        -webkit-transition: all .3s ease;
+                        -o-transition: all .3s ease;
+
+                        &:hover, &.active {
+                            border-top: 4px solid $primary_color;
+                            border-bottom: 4px solid $primary_color;
+                            color: $primary_color;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+.nav-item {
+    &.dropdown {
+        &.show {
+            a {
+                &.dropdown-toggle{
+                    border-top: 4px solid $primary_color !important;
+                    border-bottom: 4px solid $primary_color !important;
+                    color: $primary_color !important;
+                }
+            }
+        }
+    }
+    .dropdown-menu {
+        top: 97%;
+        .menu-list {
+            ul {
+                list-style-type: none;
+                list-style-position: outside;
+                padding : 5px 7%;
+
+                li {
+                    position: relative;
+                    padding: 2px 0px; 
+                    // border-bottom: 2px solid #fff;
+                    // &:hover, &.active {
+                    //     border-bottom: 2px solid $primary_color;
+                    // }
+                }
+
+                a {
+                    font-size: 14px;
+                    color: $text_color;
+                    text-decoration: none;
+                    transition: all .3s ease;
+                    -moz-transition: all .3s ease;
+                    -webkit-transition: all .3s ease;
+                    -o-transition: all .3s ease;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 0;
+                        height: 2px;
+                        background-color: $primary_color;
+                        transition: all .3s ease;
+                        -moz-transition: all .3s ease;
+                        -webkit-transition: all .3s ease;
+                        -o-transition: all .3s ease;
+                    }
+
+                    &:hover, &.active {
+                        color: $primary_color;
+                        &::after {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-nav {
+    .dropdown-menu {
+        min-width: 12.4rem;
+    }
+}
+.breast-cancer-nav {
+    .dropdown-menu {
+        min-width: 19rem;
+    }
+}
+.technology-nav {
+    .dropdown-menu {
+        min-width: 16rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+  }

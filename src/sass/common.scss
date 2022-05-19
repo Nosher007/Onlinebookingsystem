@@ -1,0 +1,153 @@
+.main-styling{
+    @include genral-font($fs : 14px, $ff : $font_family_text , $fw: 500);
+}
+div-float{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+div-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+bg-img{
+    background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+} 
+lc-btn{
+    @include genral-font($fs : 14px, $ff : $font_family_text , $fw: 500);
+    cursor: pointer;
+    background-color: $primary_color;
+    color: $btn_color;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.genral-btn{
+    @extend lc-btn;
+    width: 183px;
+    height: 53px;
+    @include border-radius(25px, 25px, 25px, 25px);
+
+    &:hover{
+        border: 1px solid $primary_color;
+        background-color: $btn-color;
+        color: $primary_color;
+    }
+}
+.cust-arrow{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border: 1px solid $text_color;
+    @include border-radius(20px, 20px, 20px, 20px);
+    position: relative;
+
+    span{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(-35%, -75%); 
+        height: 15px;
+        -moz-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+
+        svg{
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    &:hover{
+        span{
+            left: 50%;
+            transform: translate(-50%, -75%);  
+        }
+    }
+
+}
+
+.lc-hd{
+    h2{
+         @include genral-font($fs : 45px, $ff : $font_family_heading, $fw: normal); 
+         margin-bottom: 40px;
+         color: $text_color;
+    }
+    p{
+        line-height: 1.9;
+    }
+}
+
+// form
+.lc-form{
+    .form-field{
+        width: 384px;
+        height: auto;
+        float: left;
+        margin-right: 142px;
+        margin-bottom: 30px;
+
+        .form-group{
+            margin-bottom: 0;
+        }
+
+        .form-control{
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #e0dcdd;
+            @include border-radius(0, 0, 0, 0);
+            color: black;
+            @include genral-font($fs : 16px, $ff : $font_family_text, $fw: 500); 
+            padding: 15px 5px 13px 0; 
+
+            &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #494949;
+              }
+            &::-moz-placeholder { /* Firefox 19+ */
+                color: #494949;
+              }
+            &:-ms-input-placeholder { /* IE 10+ */
+                color: #494949;
+              }
+            &:-moz-placeholder { /* Firefox 18- */
+                color: #494949;
+              }
+
+            &:focus{
+                box-shadow: none;
+            }
+        }
+
+        textarea.form-control{
+            resize: unset;
+        }
+
+        &:nth-child(2n){
+            margin-right: 0;
+        }
+    }
+
+    .form-btn{
+        @extend div-float;
+        margin-top: 6px;
+    }
+}
+// form
+
+.error{
+    color: red;
+    margin-top: 2px;
+}
+.border-simple{
+    width: 100%;
+    height: 1px;
+    background-color: #e0dcdd;
+    margin: 45px 0;
+}

@@ -1,0 +1,16 @@
+@mixin border-radius($r1, $r2, $r3, $r4){
+    -webkit-border-radius: $r1 $r2 $r3 $r4;
+     -moz-border-radius: $r1 $r2 $r3 $r4;
+          border-radius: $r1 $r2 $r3 $r4;
+   }
+
+@mixin box-shadows($b1, $b2, $b3, $b4, $b5) { 
+    -webkit-box-shadow: $b1 $b2 $b3 $b4 $b5;
+    -moz-box-shadow: $b1 $b2 $b3 $b4 $b5;
+    box-shadow: $b1 $b2 $b3 $b4 $b5; 
+}
+@mixin  genral-font($fs : 16px, $ff : $font_family_text , $fw: normal ){
+    font-size: $fs; 
+    font-family: $ff;
+    font-weight: $fw;  
+}

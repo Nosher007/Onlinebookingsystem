@@ -1,0 +1,144 @@
+.our-texhnolgy-main{
+    padding: 0 35px;
+    margin: 140px 0;
+
+    .our-technolgy{
+        position: relative;
+        // @extend div-flex;
+        // align-items: center;
+        min-height: 572px;
+    }
+
+    .our-technolgy-text{
+        // @extend div-flex;
+        width: 668px;
+        min-height: 490px;
+        background-color: $primary_color;
+        // position: relative;
+        z-index: 9;
+        padding: 80px 100px 80px 50px;
+        margin-top: 42px;
+        color: $btn_color;
+
+        h2{
+            @include genral-font($fs : 45px, $ff : $font_family_heading , $fw: normal); 
+            margin-bottom: 35px;
+        }
+        p{
+            line-height: 1.8;
+        }
+    }
+
+    /*
+    .our-technolgy-img{
+        width: 736px;
+        margin-left: -25%;
+        // height: 100%;
+        // min-height: 572px;
+        // @extend bg-img;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        img{
+            width: 100%;
+            // height: 100%;
+        }
+    }
+    */
+}
+
+// disease research 
+.technology-overview-main{
+    &.disease-research-main{
+        margin-bottom: 140px;
+
+        .technology-overview{
+            padding: 0;
+            margin-top: 0;
+
+            .technology-overview-left{
+                height: 366px;
+                width: 46.307%;
+            }
+
+            .technology-overview-right{
+                width: 53.693%; 
+                padding-left: 105px;
+                padding-right: 0px;
+                margin-top: 0;
+
+                h4{
+                    @include genral-font($fs : 29px, $ff : $font_family_heading , $fw: normal); /* 26 */
+                    margin-bottom: 30px;
+
+                }
+
+                ul{
+                    padding-left: 0;
+                    list-style: none;
+
+                    li{ 
+                        padding-left: 25px;
+                        margin-bottom: 25px;
+                        position: relative;
+
+                        &:before{
+                            content: "\25A0";
+                            color: #4146a2;
+                            font-weight: bold;
+                            display: inline-block; 
+                            width: 5px; 
+                            height: 5px;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                        } 
+                    }
+                }
+            }
+        }
+    }   
+} 
+// disease research 
+
+.pipeline-progress {
+    margin: 70px 0 140px;
+}
+
+.bottom-banner-main{
+    @extend bg-img;
+    height: 578px;
+    width: 100%;
+    position: relative;
+
+    .bottom-banner-ovrlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #000000;
+        opacity: 0.8;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bottom-banner-text{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        height: 578px;
+        width: 750px;
+        margin: 0 auto;
+        padding: 30px 0;
+        text-align: center;
+        
+        h3{
+             @include genral-font($fs : 26px, $ff : $font_family_heading, $fw: normal); 
+             margin-bottom: 0; 
+             color: $btn_color;
+        } 
+    }
+}
+
+

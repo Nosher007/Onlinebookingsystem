@@ -1,0 +1,93 @@
+footer{
+    background-color: #14181b;
+    .footer-main-links{
+        padding: 80px 0; 
+
+        .footer-links{
+            h4{
+                @include genral-font($fs : 16px, $ff : $font_family_heading , $fw: bold); 
+                color: $btn_color;
+                margin-bottom: 20px;
+            }
+
+            ul{
+                list-style: none;
+                padding-left: 0;
+
+                li{
+                     @include genral-font($fs : 12px, $ff : $font_family_text , $fw: 300); 
+                     color: #aeafb1;
+                     margin-bottom: 13px;
+
+                     a{
+                        @include genral-font($fs : 12px, $ff : $font_family_text , $fw: 300); 
+                        color: #aeafb1;
+                     } 
+                }
+            }
+
+            &.footer-contact{
+                ul{
+                    li{
+                        text-decoration: underline;
+                        a{
+                           text-decoration: underline; 
+                        }
+                    }
+                }
+            }
+        }  
+    }
+
+    .footer-logo{
+        @extend div-flex ;
+        align-items: flex-end;
+        height: 140px;
+    }
+
+    .copyrights-main{
+        border-top: 1px solid #282c2f;
+        @extend div-flex ;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+
+        .copyright-text{
+            @include genral-font($fs : 12px, $ff : $font_family_text , $fw: 300);
+            color: $btn_color;
+
+            p{
+                margin-bottom: 0;
+            }
+        }
+
+        .copyrights-links{
+            ul{
+                list-style: none;
+
+                li{
+                    display: inline-block;
+                    @include genral-font($fs : 12px, $ff : $font_family_text , $fw: 300);  
+                    color: $btn_color; 
+                }
+            }
+            a{  
+                @include genral-font($fs : 12px, $ff : $font_family_text , $fw: 300); 
+                color: $btn_color;
+                 
+                // &:after{
+                //     content: "/";
+                //     margin-left: 3px;
+                //     text-decoration: none;
+                //     cursor: auto;
+                // }
+
+                // &:last-child{
+                //     &:after{
+                //         content: "";
+                //     }
+                // }
+            }
+        }
+    }
+}

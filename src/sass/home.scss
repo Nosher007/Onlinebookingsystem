@@ -1,0 +1,273 @@
+// banner 
+.lc-banner{
+    margin-top: -93px;
+    height: 780px ;
+    background-color: #e4e9ed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    // padding-top: 110px;
+
+
+    .lc-banner-text{
+        @extend div-flex;
+        padding-top: 210px;
+        // align-items: center;
+        // align-content: center;
+        padding-right: 45px;
+        // height: 670px;
+        color: $text_color;
+
+        h1{
+            color: $text_color;
+            @include genral-font($fs : 63px, $ff : $font_family_heading , $fw: normal);
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 27px;
+        }
+    }
+
+}
+// banner 
+
+// breast cancer
+.breast-cancer-main{
+    padding: 0 10px;
+    margin: 28px 0 70px;
+
+    .breast-cancer-left{
+        width: 696px; /* 726 */
+        height: 575px;
+        float: left;
+        margin-right: 8px;
+        background-color: #e0dcdd;
+        background-repeat: no-repeat;
+         background-position: right center;
+         padding: 30px 27px; 
+
+         .breast-cancer-text{
+             width: 155px;
+             float: left;
+             color: $text_color;
+
+             h2{
+                @include genral-font($fs : 34px, $ff : $font_family_heading , $fw: normal); 
+                color: $text_color;
+                margin-bottom: 20px;
+             }
+         }
+
+         &:hover{
+            .cust-arrow{
+                span{
+                    left: 50%;
+                    transform: translate(-50%, -75%); 
+                }
+            }
+         }
+    }
+
+    .breast-cancer-right{
+        width: 565px;
+        height: auto;
+        float: left;  
+
+        .breast-cancer-sub-right{
+            width: 100%;
+            height: 188px;
+            float: left; 
+            margin-bottom: 5px; 
+            background-repeat: no-repeat;
+            background-position: left center;
+
+            .breast-cancer-text{
+                padding: 20px 22px 20px 0;
+                width: 330px;
+                float: right;
+                color: $btn_color;
+                text-align: center;
+                &.third {
+                    padding: 7px 22px 15px 0; /* 20 22 20 0 */
+                }
+
+                h2{
+                    @include genral-font($fs : 34px, $ff : $font_family_heading , $fw: normal); 
+                    color: $btn_color;
+                    margin-bottom: 10px;
+                    line-height: 1;
+                 }
+                 .cust-arrow{
+                     border: 1px solid $btn_color;
+                     float: none;
+                     margin: auto;
+
+                     span{
+                         svg{ 
+                            fill: $btn_color;
+                         }
+                     }
+                 }
+            }
+
+            &:hover{
+                .cust-arrow{
+                    span{
+                        left: 50%;
+                        transform: translate(-50%, -75%); 
+                    }
+                }
+            }
+
+            &.breast-cancer-sub-right-black{
+                background-position: right center;
+
+                
+                .breast-cancer-text{
+                    width: 230px;
+                    color: $text_color;
+                    padding: 30px 0 20px 22px;
+                    float: left;
+
+                    h2{
+                        color: $text_color;
+                    }
+
+                    .cust-arrow{
+                        border: 1px solid $text_color; 
+                        span{
+                            svg{
+                                fill: $text_color;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            &:first-child{
+                background-color: #00b5e0;
+            }
+            &:nth-child(2) {
+                background-color: #ece4e2;
+            } 
+            &:nth-child(3){
+                margin-bottom: 0;
+                background-color: #0c7cc6;
+            }
+            
+        }
+
+    }
+} 
+// breast cancer
+
+// faq 
+.faqs-main{
+    margin: 140px 0;
+    padding: 140px 0;
+    background-color: #f3f3f3;
+
+    .faqs{
+        width: 880px;
+        margin: 0 auto;
+
+        .card{
+            border: none;
+            border-bottom: 1px solid #e0dcdd;
+            background-color: transparent;
+
+            .card-header{
+                background-color: transparent;
+                padding: 0 0;
+                border-bottom: none;
+
+                a{
+                    padding: 15px 35px;
+                    @include genral-font($fs : 20px, $ff : $font_family_heading , $fw: normal);
+                    color: $text_color;
+                    background-image: url('../../public/images/faq.png');
+                    background-repeat: no-repeat;
+                    background-position: left center;
+                    width: 100%;
+                    display: block;
+                    position: relative;
+
+                    &[aria-expanded="false"]:after{
+                        content: "";
+                        background-image: url('../../public/images/faq1.png');
+                        background-repeat: no-repeat;
+                        background-position: right center;
+                        width: 10px;
+                        height: 10px;
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                    &[aria-expanded="true"]:after{
+                        content: "";
+                        background-image: url('../../public/images/faq2.png');
+                        background-repeat: no-repeat;
+                        background-position: right center;
+                        width: 10px;
+                        height: 2px;
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            .card-body{
+                padding: 0 35px 20px;
+            }
+        }
+    }
+}
+// faq 
+
+// technology 
+.technology-overview-main{
+    margin: 140px 0 107px; 
+
+    .technology-overview{
+        @extend div-float;
+        padding: 0 55px;
+        margin-top: 60px;
+
+        .technology-overview-left{
+            width: 50%;
+            float: left;
+            height: 496px;
+            @extend bg-img;
+        }
+        .technology-overview-right{
+            width: 50%;
+            float: left;
+            height: auto;
+            padding-left: 115px;
+            padding-right: 20px;
+            margin-top: 40px;
+            color: $text_color;
+
+            h3{
+                @include genral-font($fs : 50px, $ff : $font_family_heading , $fw: normal); 
+                color: $text_color;
+                line-height: 1;
+                margin-bottom: 40px;
+            }
+            p{
+                margin-bottom: 45px;
+                line-height: 1.9;
+            }
+        }
+    }
+}
+// technology 
+
+.home-four-inner {
+    max-width: 1270px;
+    margin: 0px auto;
+}
+
