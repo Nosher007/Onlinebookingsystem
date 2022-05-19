@@ -2,26 +2,13 @@ import React from 'react'
 import Faqs from './Faqs'
 
 function Home() {
-
-    // const submitInfos = (e) => {
-    //     e.preventDefault();
-    //     console.log("rwfwrf");
-    //     alert("REfref");
-    // }
-    const handleSubmit = (e) =>  {
-        e.preventDefault();
-        console.log('You clicked submit.');
-      }
+ 
 
 
 
   return (
     <>
-
-        <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="name" defaultValue={"ewfd"} />
-            <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
+ 
 
         {/* <!-- banner  --> */}
         <section>
