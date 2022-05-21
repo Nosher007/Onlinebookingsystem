@@ -99,6 +99,7 @@ lc-btn{
         }
 
         .form-control{
+            min-height: 53px;
             width: 100%;
             border: none;
             border-bottom: 1px solid #e0dcdd;
@@ -150,4 +151,7 @@ lc-btn{
     height: 1px;
     background-color: #e0dcdd;
     margin: 45px 0;
+}
+.react-datetime-picker__inputGroup__input.react-datetime-picker__inputGroup__hour{
+    display: none;
 }

@@ -40,9 +40,8 @@ function Header() {
                                                     <div className="menu-list">
                                                         <ul>
                                                             <li><Link to="/terminal">Lahore</Link></li>
-                                                            <li><a to="/terminal">Islamabad</a></li> 
-                                                            <li><a to="/terminal">Multan</a></li> 
                                                             <li><a to="/terminal">Karachi</a></li>  
+                                                            <li><a to="/terminal">Islamabad</a></li>  
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -72,6 +71,10 @@ function Header() {
 
                                         <li className="nav-item">
                                             <Link className="nav-link" to="/contact">CONTACT US </Link>
+                                        </li>  
+
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/ticket">Purchase Ticket</Link>
                                         </li>  
 
                                     </ul>
