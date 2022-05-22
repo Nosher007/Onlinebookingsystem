@@ -17,7 +17,7 @@ function Home() {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="lc-banner-text">
-                                <h1>Our mission is to improve outcomes for cancer patients</h1>
+                                <h1>Our mission is to provide comfort and top notch services</h1>
                                 <p>
                                     Lumicell's technologies are designed to guide surgical oncologists using state of the art fluorescence imaging to identify and remove cancer in real-time.
                                 </p>
@@ -41,8 +41,7 @@ function Home() {
                             <div className="home-four-inner">
                                 <a href="https://clinicaltrials.gov/ct2/show/NCT03686215?term=lumicell&draw=2&rank=1" target="_blank" className="breast-cancer-left" style={{ backgroundImage: "url('images/bc1.png')"}}>
                                     <div className="breast-cancer-text">
-                                        <h2>Investigation of Novel Surgical Imaging for Tumor Excision (INSITE)</h2>
-                                        <p>See this study on clinicaltrials.gov</p>
+                                        <h2>Lahore</h2>
                                         {/* <!-- We are actively recruiting --> */}
                                         <div className="cust-arrow">
                                             <span>
@@ -57,8 +56,7 @@ function Home() {
                                 <div className="breast-cancer-right">
                                     <a href="breast-cancer-map.php" className="breast-cancer-sub-right" style={{ backgroundImage: "url('images/bc2.png')"}} > 
                                         <div className="breast-cancer-text">
-                                            <h2>Learn more about INSITE</h2>
-                                            <p>Is this study right for you?</p>
+                                            <h2>ISLAMABAD</h2>
                                             <div className="cust-arrow">
                                                 <span>
                                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -71,7 +69,7 @@ function Home() {
                                     </a>
                                     <a href="breast-cancer-map.php#findDoctor" className="breast-cancer-sub-right breast-cancer-sub-right-black " style={{ backgroundImage: "url('images/bc3.png')"}} > 
                                         <div className="breast-cancer-text">
-                                            <h2>Find a Doctor Near You</h2> 
+                                            <h2>KARACHI</h2> 
                                             <div className="cust-arrow">
                                                 <span>
                                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -84,8 +82,7 @@ function Home() {
                                     </a>
                                     <a href="our-technology.php#ourPublication" className="breast-cancer-sub-right" style={{backgroundImage: "url('images/bc4.png')"}} > 
                                         <div className="breast-cancer-text third">
-                                            <h2>Our Published Research</h2>
-                                            <p>From work with our academic collaborators</p>
+                                            <h2>Quetta</h2>
                                             <div className="cust-arrow">
                                                 <span>
                                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
