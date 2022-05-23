@@ -16,6 +16,9 @@ function Header() {
                                 </button>
                                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                                     <ul className="nav navbar-nav ml-auto"> 
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/">Home</Link>
+                                        </li> 
                                         <li className="nav-item dropdown">
                                             <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Terminals </a> 
                                             {/* <!-- data-toggle="dropdown" --> */}
@@ -32,26 +35,7 @@ function Header() {
                                             </div>
                                         </li>
 
-                                        <li className="nav-item dropdown technology-nav">
-                                            <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="our-technology.php">OUR TECHNOLOGY </a> 
-                                            {/* <!-- data-toggle="dropdown" --> */}
-                                            <div className="dropdown-menu">
-                                                <div className="dc-menu-main floating">
-                                                    <div className="menu-list">
-                                                        <ul>
-                                                            <li><a href="our-technology.php#banner">Technology</a></li>
-                                                            <li><a href="our-technology.php#imaging-system">The Lumicell Imaging System</a></li>
-                                                            <li><a href="our-technology.php#ourPublication">Our Publications</a></li>
-                                                            <li><a href="our-technology.php#pipeline">Pipeline</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link className="nav-link" to="/news">NEWS </Link>
-                                        </li> 
+                                    
 
                                         <li className="nav-item">
                                             <Link className="nav-link" to="/contact">CONTACT US </Link>
