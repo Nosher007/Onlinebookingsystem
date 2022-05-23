@@ -16,22 +16,6 @@ function Header() {
                                 </button>
                                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                                     <ul className="nav navbar-nav ml-auto"> 
-
-                                        <li className="nav-item dropdown about-nav">
-                                            <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About </a> 
-                                            {/* <!-- data-toggle="dropdown" --> */}
-                                            <div className="dropdown-menu">
-                                                <div className="dc-menu-main floating">
-                                                    <div className="menu-list">
-                                                        <ul>
-                                                            <li><Link to="/about">Founder's Note</Link></li>
-                                                            <li><Link to="/about">Management</Link></li> 
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
                                         <li className="nav-item dropdown">
                                             <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Terminals </a> 
                                             {/* <!-- data-toggle="dropdown" --> */}

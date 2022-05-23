@@ -117,14 +117,14 @@ function Home() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="lc-hd text-center">
-                                <h2>Technology Overview</h2>
+                                <h2>Overview</h2>
                             </div>
 
                             <div className="technology-overview">
                                 <div className="technology-overview-left" style={{ backgroundImage: "url('images/t1.png')"}}> 
                                 </div>
                                 <div className="technology-overview-right"> 
-                                    <h3>Our Technology</h3>
+                                    <h3>Our Mission</h3>
                                     <p>
                                         Lumicell’s Imaging System has three main components: an injectable drug called pegulicianine, a handheld imaging probe and computer software.
                                     </p>

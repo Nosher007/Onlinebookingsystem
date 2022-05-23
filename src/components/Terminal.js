@@ -11,8 +11,7 @@ function Terminal() {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="inner-banner-text">
-                                <span>Is this study right for you?</span>
-                                <h1>Investigation of Novel Surgical Imaging for Tumor Excision (INSITE)</h1>
+                                <h1>Lahore</h1>
                             </div>
                         </div>
                     </div>
@@ -30,7 +29,7 @@ function Terminal() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="lc-hd text-center">
-                                <h2>About This Study</h2>
+                                <h2>Introduction</h2>
                             </div>
 
                             <div className="technology-overview">
@@ -39,10 +38,10 @@ function Terminal() {
                                 <div className="technology-overview-right"> 
                                     {/* <!-- <h3>Who can participate?</h3> --> */}
                                     <p>
-                                        Females age 18 or older, diagnosed with primary invasive breast cancer and or ductal carcinoma in situ (DCIS) and scheduled for lumpectomy are eligible to participate. The INSITE study evaluates a novel drug (pegulicianine) and Lumicell’s imaging system for safety and efficacy in identifying and guiding removal of cancer remaining in the surgical cavity after the standard lumpectomy, with the goal of reducing the risk of repeat surgeries. 
+                                        All the routs run 24/7 to all the terminal (Karachi, Islamabad, Quetta)
                                     </p>
                                     <p className="mb-0">
-                                        Pegulicianine is designed to fluoresce – or light up – in the presence of cancer cells to help surgeons differentiate between healthy and abnormal tissue. After your surgeon completes the standard lumpectomy procedure, your surgeon will scan the surgical cavity with Lumicell’s imaging system to identify and remove residual disease. The Lumicell technology has been used in multiple clinical studies in over 500 breast cancer patients.
+                                        still in case do check the timing on the booking in case of any delayes or cancleation
                                     </p> 
                                 </div>
 
@@ -63,10 +62,7 @@ function Terminal() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="lc-hd text-center">
-                                <h2>My Treatment</h2>
-                                <p>
-                                    Here is how your surgery and treatment plan will change if I you choose to participate in this study.
-                                </p>
+                                <h2>Local Transport route </h2>
                             </div> 
 
                             <div className="timeline">
