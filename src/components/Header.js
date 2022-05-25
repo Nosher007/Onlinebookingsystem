@@ -27,8 +27,8 @@ function Header() {
                                                     <div className="menu-list">
                                                         <ul>
                                                             <li><Link to="/terminal">Lahore</Link></li>
-                                                            <li><a to="/terminal">Karachi</a></li>  
-                                                            <li><a to="/terminal">Islamabad</a></li>  
+                                                            <li><Link to="/karachi">Karachi</Link></li>  
+                                                            <li><Link to="/islamabad">Islamabad</Link></li>  
                                                         </ul>
                                                     </div>
                                                 </div>

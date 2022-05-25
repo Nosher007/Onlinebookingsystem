@@ -109,35 +109,7 @@ function Home() {
         {/* <!-- faqs  --> */}
 
         <div className="clearfix"></div> 
-        
-        {/* <!-- technologies  --> */}
-        <section>
-            <div className="technology-overview-main"> 
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="lc-hd text-center">
-                                <h2>Overview</h2>
-                            </div>
-
-                            <div className="technology-overview">
-                                <div className="technology-overview-left" style={{ backgroundImage: "url('images/t1.png')"}}> 
-                                </div>
-                                <div className="technology-overview-right"> 
-                                    <h3>Our Mission</h3>
-                                    <p>
-                                        Lumicell’s Imaging System has three main components: an injectable drug called pegulicianine, a handheld imaging probe and computer software.
-                                    </p>
-                                    <a href="our-technology.php" className="genral-btn" style={{ textAlign: 'center', lineHeight: 3.6, textDecoration: 'none', display: 'inline-block'}}>Learn More</a>  
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        {/* <!-- technologies  --> */}
+    
 
     </>
   )

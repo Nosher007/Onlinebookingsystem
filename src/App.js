@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Terminal from "./components/Terminal"
+import Karachi from "./components/Karachi";
+import Islamabad from "./components/Islamabad";
 import PurchaseTickets from "./components/PurchaseTickets";
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Home/>}></Route> 
               <Route path="/contact" element={<Contact/>}></Route> 
-              <Route path="/terminal" element={<Terminal/>}></Route> 
+              <Route path="/terminal" element={<Terminal/>}></Route>
+              <Route path="/karachi" element={<Karachi/>}></Route>
+              <Route path="/islamabad" element={<Islamabad/>}></Route>
               <Route path="/ticket" element={<PurchaseTickets/>}></Route> 
             </Routes>
             
