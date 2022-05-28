@@ -11,7 +11,7 @@ function Karachi() {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="inner-banner-text">
-                                <h1>Karachi</h1>
+                            <h1 style={{color:"white"}}>Karachi</h1>
                             </div>
                         </div>
                     </div>

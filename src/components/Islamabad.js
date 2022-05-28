@@ -11,7 +11,7 @@ function Islamabad() {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="inner-banner-text">
-                                <h1>Islamabad</h1>
+                            <h1 style={{color:"white"}}>Islamabad</h1>
                             </div>
                         </div>
                     </div>

@@ -26,9 +26,10 @@ function Header() {
                                                 <div className="dc-menu-main floating">
                                                     <div className="menu-list">
                                                         <ul>
-                                                            <li><Link to="/terminal">Lahore</Link></li>
+                                                            <li><Link to="/lahore">Lahore</Link></li>
                                                             <li><Link to="/karachi">Karachi</Link></li>  
-                                                            <li><Link to="/islamabad">Islamabad</Link></li>  
+                                                            <li><Link to="/islamabad">Islamabad</Link></li>
+                                                            <li><Link to="/quetta">Quetta</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>

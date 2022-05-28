@@ -39,7 +39,7 @@ function Home() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="home-four-inner">
-                                <a href="https://clinicaltrials.gov/ct2/show/NCT03686215?term=lumicell&draw=2&rank=1" target="_blank" className="breast-cancer-left" style={{ backgroundImage: "url('images/bc1.png')"}}>
+                                <a href="/lahore" className="breast-cancer-left" style={{ backgroundImage: "url('images/bc1.png')"}}>
                                     <div className="breast-cancer-text">
                                         <h2>Lahore</h2>
                                         {/* <!-- We are actively recruiting --> */}
@@ -54,7 +54,7 @@ function Home() {
                                     </div>
                                 </a>
                                 <div className="breast-cancer-right">
-                                    <a href="breast-cancer-map.php" className="breast-cancer-sub-right" style={{ backgroundImage: "url('images/bc2.png')"}} > 
+                                    <a href="/islamabad" className="breast-cancer-sub-right" style={{ backgroundImage: "url('images/bc2.png')"}} > 
                                         <div className="breast-cancer-text">
                                             <h2>ISLAMABAD</h2>
                                             <div className="cust-arrow">
@@ -67,7 +67,7 @@ function Home() {
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="breast-cancer-map.php#findDoctor" className="breast-cancer-sub-right breast-cancer-sub-right-black " style={{ backgroundImage: "url('images/bc3.png')"}} > 
+                                    <a href="/karachi" className="breast-cancer-sub-right breast-cancer-sub-right-black " style={{ backgroundImage: "url('images/bc3.png')"}} > 
                                         <div className="breast-cancer-text">
                                             <h2>KARACHI</h2> 
                                             <div className="cust-arrow">
@@ -80,7 +80,7 @@ function Home() {
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="our-technology.php#ourPublication" className="breast-cancer-sub-right" style={{backgroundImage: "url('images/bc4.png')"}} > 
+                                    <a href="quetta" className="breast-cancer-sub-right" style={{backgroundImage: "url('images/bc4.png')"}} > 
                                         <div className="breast-cancer-text third">
                                             <h2>Quetta</h2>
                                             <div className="cust-arrow">

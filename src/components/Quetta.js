@@ -1,7 +1,7 @@
 import React from 'react'
 import Faqs from './Faqs'
 
-function Terminal() {
+function Quetta() {
   return (
     <>
       {/* <!-- banner  --> */}
@@ -11,7 +11,7 @@ function Terminal() {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="inner-banner-text">
-                                <h1 style={{color:"white"}}>Lahore</h1>
+                            <h1 style={{color:"white"}}>Quetta</h1>
                             </div>
                         </div>
                     </div>
@@ -84,4 +84,4 @@ function Terminal() {
   )
 }
 
-export default Terminal
+export default Quetta

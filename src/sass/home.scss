@@ -15,10 +15,10 @@
         // align-content: center;
         padding-right: 45px;
         // height: 670px;
-        color: $text_color;
+        color: white;
 
         h1{
-            color: $text_color;
+            color: white;
             @include genral-font($fs : 63px, $ff : $font_family_heading , $fw: normal);
             margin-bottom: 20px;
         }
@@ -48,11 +48,11 @@
          .breast-cancer-text{
              width: 155px;
              float: left;
-             color: $text_color;
+             color: white;
 
              h2{
                 @include genral-font($fs : 34px, $ff : $font_family_heading , $fw: normal); 
-                color: $text_color;
+                color: white;
                 margin-bottom: 20px;
              }
          }
@@ -84,7 +84,7 @@
                 padding: 20px 22px 20px 0;
                 width: 330px;
                 float: right;
-                color: $btn_color;
+                color: white;
                 text-align: center;
                 &.third {
                     padding: 7px 22px 15px 0; /* 20 22 20 0 */
@@ -97,13 +97,13 @@
                     line-height: 1;
                  }
                  .cust-arrow{
-                     border: 1px solid $btn_color;
+                     border: 1px solid white;
                      float: none;
                      margin: auto;
 
                      span{
                          svg{ 
-                            fill: $btn_color;
+                            fill: white;
                          }
                      }
                  }
@@ -124,19 +124,19 @@
                 
                 .breast-cancer-text{
                     width: 230px;
-                    color: $text_color;
+                    color: white;
                     padding: 30px 0 20px 22px;
                     float: left;
 
                     h2{
-                        color: $text_color;
+                        color: white;
                     }
 
                     .cust-arrow{
-                        border: 1px solid $text_color; 
+                        border: 1px solid white; 
                         span{
                             svg{
-                                fill: $text_color;
+                                fill: white;
                             }
                         }
                     }
